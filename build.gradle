@@ -60,3 +60,4 @@ task notification_test(type: Test) {
     }
     systemProperty "allure.results.directory", "build/allure-results"
 }
+
