@@ -11,7 +11,7 @@
     "customData": {}
   },
   "telegram": {
-    "token": "8097787269:AAF__cpxyoxynYOANgcgXEA_o45LCuG5lTU",
+    "token": "8097787269:AAEzjHz09_cPULKWog8ODz_Hw1iYCswCegs",
     "chat": "-4502017801",
     "replyTo": "",
     "templatePath": "/templates/telegram.ftl"
