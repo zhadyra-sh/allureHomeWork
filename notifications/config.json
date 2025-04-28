@@ -1,0 +1,19 @@
+{
+  "base": {
+    "project": "Zhadyra test",
+    "environment": "test",
+    "comment": "comment here @shzhadyra",
+    "reportLink": "http://localhost:63342/hw_allure/hw_allure/build/reports/allure-report/allureReport/index.html?_ijt=129j4aemrq9b91enhi7gq4nu3&_ij_reload=RELOAD_ON_SAVE",
+    "language": "en",
+    "allureFolder": "/Users/shzhadyra/Desktop/IdeaProjects/qa_quru/hw_allure/build/reports/allure-report/allureReport",
+    "enableChart": true,
+    "enableSuitesPublishing": false,
+    "customData": {}
+  },
+  "telegram": {
+    "token": "8097787269:AAEzjHz09_cPULKWog8ODz_Hw1iYCswCegs",
+    "chat": "-4502017801",
+    "replyTo": "",
+    "templatePath": "/templates/telegram.ftl"
+  }
+}

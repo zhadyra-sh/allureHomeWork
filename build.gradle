@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.qameta.allure' version '2.10.0'
+    id 'io.qameta.allure' version '2.11.2'
 }
 
 group = 'kz.shynybayeva'
@@ -41,3 +41,23 @@ test {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 }
+
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+task notification_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("notification")
+    }
+    systemProperty "allure.results.directory", "build/allure-results"
+}
+

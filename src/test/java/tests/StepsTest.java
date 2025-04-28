@@ -20,6 +20,7 @@ public class StepsTest {
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Test page", url = "https://github.com/zhadyra-sh/allureHomeWork")
 
+
     @Test
     public void lambdaStepTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
